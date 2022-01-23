@@ -1,0 +1,184 @@
+﻿
+
+.col1 {
+    width: 40vw;
+    height: 100vh;
+    padding-right: 3rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.col2 {
+    width: 90vw;
+    position: absolute;
+    bottom: 13%;
+    left: 35%;
+    width: 23%;
+}
+
+#best-price {
+}
+
+.go-to-shop {
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5rem;
+}
+
+.green {
+    color: #6ebd44;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.products {
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60vw;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.product-col1 {
+    /* width: 80%; */
+}
+
+.product-col2 {
+    text-align: right;
+}
+
+.store {
+    width: 100px;
+    height: 50px;
+}
+
+#price {
+    color: #0077ab;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#currency {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0077ab;
+    font-size: 12px;
+}
+
+#price-update {
+    color: rgb(128, 128, 128);
+}
+
+.price {
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-bottom: 20px;
+    color: #444;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#products {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 11px 10px 15px;
+    font-size: 16px;
+    background-color: #71bf44;
+    border: 1px solid #6ebd44;
+    width: fit-content;
+    height: max-content;
+}
+
+    button > a {
+        color: #fff;
+        text-decoration: none;
+        -webkit-border-radius: 2px;
+    }
+
+i {
+    font-size: 10px;
+    font-family: system-ui;
+    display: inline-block;
+    background-color: #71bf44;
+    color: white;
+    border-radius: 17px;
+    border: 1px solid white;
+    padding: 1px 5px 1px 2px;
+}
+
+.best-price-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60vw;
+}
+
+#best-price {
+    color: #0077ab;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-right: 5px;
+    width: fit-content;
+    border-bottom: 2px solid #71bf44;
+    padding-bottom: 20px;
+}
+
+.online-shops-count {
+    margin-left: 2rem;
+    margin-top: -1rem;
+    color: grey;
+    font-size: 14px;
+}
+
+.pics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.pic {
+    width: 50px;
+    height: 50px;
+}
+
+img.pic:hover {
+    border: 1px solid #71bf44;
+}
+
+#enlarged {
+    height: 55%;
+    width: 100%;
+    margin-top: 15%;
+}
+
+#best-shop-img {
+    margin-right: 1rem;
+}
+.new-comment > button {
+    background-color: white;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: smaller;
+    border: 1px solid lightgrey;
+    margin-left: 86%;
+}
+
+.date {
+    color: gray;
+    font-size: small;
+}

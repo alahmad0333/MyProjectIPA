@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="MyProjectIPA.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+            <link href="StyleSheet1.css" rel="stylesheet" />
+        <link href="Content/bootstrap.css" rel="stylesheet" />
+
+            <style>
+              
+            
+            .auto-style8 {
+            padding: 9px 25px;
+            background-color: rgba(0,136,169,1);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+
+            }
+
+                .auto-style9 {
+                    left: 0px;
+                    top: 2px;
+                }
+            </style>
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+                        <nav class="auto-style9">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="WebForm1.aspx">Best Price</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="WebForm1.aspx">Go To Web Site</a>
+        </li>
+
+                  <li class="nav-item">
+          <a class="nav-link" href="WebForm1.aspx">Check Path</a>
+        </li>
+
+                            <li class="nav-item">
+          <a class="nav-link" href="WebForm1.aspx">Edit User</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Add Product</a>
+        </li>
+        <li class="nav-item">
+            <asp:Label Cssclass="nav-link" Visible="false" ID="Label1" runat="server" Text="Label"></asp:Label>
+        </li>                        
+
+      </ul>
+  <asp:Button ID="Butlong" runat="server" Text="Login" CssClass="auto-style8"  />
+    </div>
+  </div>
+</nav>
+            </div>
+        <div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+
+        </div>
+
+    </form>
+</body>
+</html>
